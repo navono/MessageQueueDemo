@@ -10,3 +10,7 @@ Change `user:password` in `connect`. Run sender:
 then recevier:
 > node ./receive.js
 
+
+# License
+MIT
+
