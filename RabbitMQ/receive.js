@@ -1,6 +1,6 @@
 const amqp = require('amqplib/callback_api');
 
-amqp.connect('amqp://admin:pqx890917@45.32.69.18/', (err, conn) => {
+amqp.connect('amqp://user:password@45.32.69.18/', (err, conn) => {
   conn.createChannel((err, chan) => {
     const queue = 'hello';
 
